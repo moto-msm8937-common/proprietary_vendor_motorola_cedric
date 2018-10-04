@@ -19,16 +19,16 @@ PRODUCT_SOONG_NAMESPACES += \
 
 PRODUCT_COPY_FILES += \
     vendor/motorola/cedric/proprietary/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar:$(TARGET_COPY_OUT_SYSTEM)/framework/vendor.qti.hardware.sensorscalibrate-V1.0-java.jar \
-    vendor/motorola/cedric/proprietary/system/lib/libbabysit.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbabysit.so \
-    vendor/motorola/cedric/proprietary/system/lib/libcce-socketjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcce-socketjni.so \
-    vendor/motorola/cedric/proprietary/system/lib/libdmengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmengine.so \
-    vendor/motorola/cedric/proprietary/system/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmjavaplugin.so \
-    vendor/motorola/cedric/proprietary/system/lib/libfilterpack_facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfilterpack_facedetect.so \
-    vendor/motorola/cedric/proprietary/system/lib/libpkip.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpkip.so \
-    vendor/motorola/cedric/proprietary/system/lib/libprovlib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprovlib.so \
-    vendor/motorola/cedric/proprietary/system/lib/libtpa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtpa.so \
-    vendor/motorola/cedric/proprietary/system/lib/libwbxmlparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwbxmlparser.so \
-    vendor/motorola/cedric/proprietary/system/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
+    vendor/motorola/cedric/proprietary/lib/libbabysit.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libbabysit.so \
+    vendor/motorola/cedric/proprietary/lib/libcce-socketjni.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libcce-socketjni.so \
+    vendor/motorola/cedric/proprietary/lib/libdmengine.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmengine.so \
+    vendor/motorola/cedric/proprietary/lib/libdmjavaplugin.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libdmjavaplugin.so \
+    vendor/motorola/cedric/proprietary/lib/libfilterpack_facedetect.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libfilterpack_facedetect.so \
+    vendor/motorola/cedric/proprietary/lib/libpkip.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libpkip.so \
+    vendor/motorola/cedric/proprietary/lib/libprovlib.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libprovlib.so \
+    vendor/motorola/cedric/proprietary/lib/libtpa.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libtpa.so \
+    vendor/motorola/cedric/proprietary/lib/libwbxmlparser.so:$(TARGET_COPY_OUT_SYSTEM)/lib/libwbxmlparser.so \
+    vendor/motorola/cedric/proprietary/lib/vendor.qti.hardware.sensorscalibrate@1.0.so:$(TARGET_COPY_OUT_SYSTEM)/lib/vendor.qti.hardware.sensorscalibrate@1.0.so \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice:$(TARGET_COPY_OUT_VENDOR)/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice \
     vendor/motorola/cedric/proprietary/vendor/bin/hw/motorola.hardware.camera.provider@2.4-service:$(TARGET_COPY_OUT_VENDOR)/bin/hw/motorola.hardware.camera.provider@2.4-service \
     vendor/motorola/cedric/proprietary/vendor/bin/mm-qcamera-daemon:$(TARGET_COPY_OUT_VENDOR)/bin/mm-qcamera-daemon \
